@@ -1,0 +1,646 @@
+ @font-face{
+				src:url(Washington.ttf);
+				font-family: Kathy;
+}
+ 
+ *{
+ 			margin:0;
+ 			padding:0;
+ 			box-sizing:border-box;
+ 			font-family: Kathy;
+ 			font-weight:;
+ 			
+ 			
+ 			
+ }
+body{
+				background:#e8e8e8;
+}
+ nav{
+ 				height:60px;
+ 				background:#04090f;
+ 				display: flex;
+ 				align-items:center;
+ 				justify-content:space-between; 
+ 				padding: 0px 50px 0px 70px;
+ 				position:fixed;
+ 				width:100%;
+ 				
+ }
+nav .logo{
+ 				font-size:30px;
+ 				color:#ffd26a;
+ 				
+ }
+ 
+ nav ul{
+ 				display:flex;
+ 				list-style:none;
+ 				
+ 				
+ }
+ nav ul a {
+ 				display:flex;
+ 				 text-decoration:none;
+ 				  margin:0 7px;
+ 				  color:white;
+ 				  padding:8px 7px;
+ 				  font-size:20px;
+ 				  
+ }
+ nav ul li a:hover{
+ 				background:#ffd26a;
+ 				 }
+ 	nav ul li a.active{
+ 					border-bottom:1px solid white;
+ 					padding-bottom:0px;
+ 					transition:all 3s ease;
+ 	}
+ 
+nav .give{
+				text-decoration:none;
+				font-size:20px;
+ 				padding:15px 45px 15px 45px;
+ 			 background:#ffd26a;
+ 				border-radius:7px;
+ 				font-weight:600;
+}
+nav .give:hover{
+ 				color:#ffd26a;
+ 				background: black;
+ 				
+ }
+ #givve{
+ 				display:none
+ }
+ #click{
+ 				display:none;
+ }
+.navicon{
+				width:30px;
+				display:none;
+}
+.navcancel{
+				width:30px;
+				display:none;
+}
+
+
+	.box{
+					width:100%;
+					height:100vh ;
+					background:green;
+					background-image:url(bgpic.jpg);
+					background-size:cover;
+					background-attachment:fixed;
+					} 
+	
+	
+	.ftext{padding-top:150px ;
+					padding-left:10%;}
+	
+.wel{
+					font-size:20px;
+					color: White;
+					text-decoration:italic;
+	}
+	.bec{
+					margin:70px 0;
+					font-size:70px;
+					font-weight:700;
+					color:white;
+					
+	}
+.lm{
+				padding:17px 45px;
+				background:#ffd26a;
+				border-radius:7px;
+				text-decoration:none;
+				font-size:20px;
+				color: black;
+ }
+.ltext{
+				margin:50px 0;
+				color:white;
+}
+.cmi{
+				margin:100px 0 40px 0;
+				text-align: center;
+				font-size:17px;
+}
+.rel{
+				text-align: center;
+				font-size:60px;
+				color: #ffd26a;
+}
+.aggcard{
+				display:flex;
+				justify-content: center;
+				flex-wrap:wrap;
+				align-item:center; 
+				margin:0 30px;
+}
+
+.thecard{
+			width:300px;
+			background:#FFF7E6;
+			Padding:30px;
+	  display:block;
+			margin:auto;
+			margin-bottom:50px;
+			margin-top:50px;		
+			border-bottom:30px solid #ffd26a;
+			
+			
+			
+}
+
+
+.thetext{
+				font-size:40px;
+				margin:30px 0;
+}
+.theicon{
+				width: 50px;
+}
+.thep{
+				font-size:17px;
+				line-height:30px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.next{
+				Margin:auto;
+						display: block;
+ 				align-items:center;
+}
+.landc{
+				font-size:17px;
+				line-height:30px;
+				text-align: center;
+				margin:30px 15px 30px 15px;
+}
+.rm{
+			
+				padding:17px 45px;
+				background:#ffd26a;
+				border-radius:7px;
+				text-decoration:none;
+				font-size:20px;
+				color: black;
+				display:block;
+				margin: auto;
+				border: none;
+ }
+.churchimg{
+				width:250px;
+					display:block;
+				margin:auto;
+				margin-top:20px;
+				
+		}
+.churchimgtwo{
+				width:250px;
+					display:block;
+				margin:auto;
+				margin-top:70px;
+}
+	.homeimg{
+				display:flex;
+				justify-content: center;
+				align-item:center; 
+				margin:0 100px;
+					
+	}
+	.event{
+					display:flex;
+					justify-content: center;
+					flex-wrap:wrap;
+				 align-item:center; 
+					}
+.eventcard{
+			width:60%;
+			background:#FFF7E6;
+			Padding:90px 30px 30px 30px;
+			display:block;
+			margin:auto;
+			height: ;
+			grid-area: content1;
+}
+
+.evedate{
+				display:block;
+				text-align:right;
+				font-size:17px;
+}
+.mont{
+display: flex;
+align-items:center;
+ 				justify-content:space-between; 
+				
+}
+.ueve{
+font-size:17px;
+color: #4e1a06;
+				
+}
+evemon{
+				font-size:17px;
+}
+.fait{
+				font-size:50px;
+				line-height:70px;
+				margin:20px 0;
+}
+.evetext{
+				font-size:20px;
+				line-height:30px;
+				
+}
+.dandt{
+				font-size:20px;
+				line-height:50px;
+				margin:50px 50px 10px 50px;
+}
+.register{
+				padding:17px 45px;
+				background:black;
+				border-radius:7px;
+				text-decoration:none;
+				font-size:20px;
+				color: #FFF7E6;
+				border: none;
+}
+.eveimg{
+				width:320px; 
+				display:block;
+			margin:auto;
+			margin-bottom:50px;
+			
+}
+
+
+
+
+.aboutheader{
+				
+				width:100%;
+				height:500px;
+			background-image:url("headimg.jpg");
+			 background-size:contain;
+			 backgroung-repeat:no-repeat;
+			 
+			 background-attachment:fixed;
+			 
+} 
+
+.abouttext{padding-top:150px ;
+									padding-left:5%;
+									margin-bottom:250px;
+					}
+.mv{
+				display: flex;
+				justify-content: center;
+}
+	
+.mivi{
+				margin:20px 40px;
+				width:200px;
+}
+.mvlast{
+				font-size:20px;
+				line-height:30px;
+			}
+.mvfirst{
+				margin:70px 0px 10px 0px;
+				font-size:20px;
+}
+.mvhead{
+				margin:10px 0px ;
+				font-size:50px;
+}
+
+.bene{
+					margin:70px 0px 10px 0px;
+				font-size:20px;
+				text-align: center;
+}
+.bigbene{
+				margin:10px 0px ;
+				font-size:30px;
+				text-align: center;
+				}
+.bc{
+				margin:20px 120px;
+				display:flex;
+}
+.bcbig{
+				margin:50px 0px ;
+				font-size:45px;
+				color:#ffd26a;
+}
+.bcsmall{
+				margin:10px 0px 10px 0px;
+				font-size:20px;
+				line-height:30px;
+				
+}
+.bcimg{
+				width:50%;
+				margin:30px;
+}
+
+.exbg{
+			 
+				padding:30px;
+				margin:20px 20px;
+				align-item: center;
+				width:250px;
+				border-top-right-radius:20px;
+				border-bottom-right-radius:20px;
+				color: white;
+				height:300px;
+				border-left:7px solid #ffd26a;
+			 background-image: linear-gradient(to bottom, #735f30, #ffffff);
+				
+}
+.eximg{
+				border-radius:100%;
+				width:100px;
+				border:3px solid white;
+				
+}
+.excoscard{
+				display:flex;
+				justify-content: center;
+				align-item:center; 
+				margin:0 60px 20px 60px;
+					
+}
+
+
+footer{
+				background:black;
+				padding:50px 30px;
+				width:100%;
+				color: white;
+}
+.logodiv{
+				
+}
+
+.cmlogo{
+				width:50px;
+				margin:5px;
+}
+.qldiv{
+				margin:50px 10px;
+}
+.qlink{
+				text-decoration:none;
+				color:white;
+}
+
+.mailbox{
+				border:none;
+				height:50px;
+				background:#b2c2b2;
+				padding:20px;
+				border-radius:15px;
+				font-size:20px;
+				margin-right:-30px;
+}
+
+.sub{
+				padding:17px 45px;
+				
+				background:#ffd26a;
+				border-radius:15px;
+				text-decoration:none;
+				font-size:20px;
+				color: black;
+				border: none;
+				
+}
+
+.dfooter{
+				display:flex;
+				justify-content: center;
+				align-item:center; 
+}
+.subscribediv{
+				margin:40px;
+}
+
+.cheadtext{
+				text-align: center;
+				margin:30px;
+				
+}
+.textform{
+				display:block;
+				margin:auto;
+				width:250px;
+				height:50px;
+				border:none;
+				border-radius:7px;
+				background:white;
+				padding:5px;
+				font-size:20px;
+				
+				
+}
+.mesgform{
+				display:block;
+				margin:auto;
+				width:250px;
+				height:200px;
+				border:none;
+				border-radius:7px;
+				background:white;
+				padding:5px;
+				font-size:20px;
+}
+.contactbtn{
+				display:block;
+				margin:auto;
+				width:200px;
+				height:40px;
+				border:none;
+				border-radius:5px;
+				background:#ffd26a;
+				padding:5px;
+				font-size:20px;
+				margin-bottom:30px;
+				
+}
+
+.con{
+				display:flex;
+				margin:100px;
+				
+}
+
+.address{
+				margin:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:940px){
+				nav{
+								padding-left:30px;
+				}
+				.logo{
+								font-weight:800;
+				}
+			
+			nav ul {
+							position:fixed;
+							display:block;
+							background:#ffd26a;
+							top:0px;
+							width:100vh;
+							height:100vh;
+							display:none;
+							transition:all 0.3s ease;
+							
+						}
+nav ul li a{
+				margin: 40px 40px ;
+				color: black;
+				width:90px;
+				transition:all 0.3s ease;
+				
+				
+}
+	
+ 	nav ul li a.active{
+ 					border:none;
+ 					padding:0;
+ 					font-weight:800;
+ 				 transition:all 0.3s ease;
+ 	}	
+ 	nav .give{
+ 					display:none;
+ 	}
+ 	#givve{
+ 					display:block;
+ 					
+ 	}
+ 	#click{
+ 				display:none;
+ }
+  #click:checked~ul {
+ 				 display: block;
+ }
+ .navicon{
+				margin-top: -15px;
+				justify-content:space-between;
+				position:fixed;
+ 			 right:15px;
+ 			 display:flex;
+ 			 transition:all 0.3s ease;
+			}
+.navcancel{					
+					margin-top:15px;
+				justify-content:space-between;
+				position:fixed;
+ 			 right:10px;
+ 			 display:flex;
+ 			 transition:all 0.3s ease;
+ 			 }
+.aggcard{
+				display: block;
+				margin: auto;
+		}
+
+	.homeimg{
+					display: block;
+				margin: auto;
+	}
+	.aboutheader{
+				
+				width:100%;
+				height:600px;
+			background-image:url("headimg.jpg");
+			 background-size:cover;
+			 backgroung-repeat:no-repeat;
+			 
+			 background-attachment:fixed;
+			 
+}
+.event{
+				display: block;
+				margin: auto;
+			}		
+			
+.eventcard{
+			width:89%;
+			}
+.mv{
+				display:block;
+}
+.bc{
+				margin:0px 20px;
+				display:block;
+}
+.bcimg{
+				width:300px;
+				margin:10px 0px;
+}
+.exbg{
+				display:block;
+				Margin:auto;
+				margin-bottom:20px;
+}
+
+.excoscard{
+				display:block;
+				margin: auto;
+					 
+}
+
+.mailbox{
+				width:200px
+}
+.sub{
+				width:120px;
+				padding:10px;
+				height:50px;
+}
+.subscribediv{
+				display:block;
+				margin:auto;
+}
+.fform{
+				display:block;
+				margin:auto;
+}
+.dfooter{
+				display:block;
+				margin:auto;
+}
+.con{
+				display:block;
+				margin:auto;
+}
+
+		}
+ 
+	
+
+
